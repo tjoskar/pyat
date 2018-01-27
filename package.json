@@ -1,0 +1,23 @@
+{
+  "name": "pyat",
+  "version": "1.0.0",
+  "description": "Minimal project generator",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjoskar/pyat.git"
+  },
+  "author": "Oskar Karlsson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjoskar/pyat/issues"
+  },
+  "homepage": "https://github.com/tjoskar/pyat#readme",
+  "dependencies": {
+    "inquirer": "^5.0.1",
+    "sao": "^0.22.12"
+  }
+}
