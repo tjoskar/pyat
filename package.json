@@ -4,7 +4,7 @@
   "description": "Minimal project generator",
   "main": "cli.js",
   "scripts": {
-    "test": "jest"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,12 @@
     "sao": "^0.22.12"
   },
   "devDependencies": {
-    "jest": "^22.1.4"
-  }
+    "ava": "^0.25.0"
+  },
+  "ava": {
+		"files": [
+			"test/*.js"
+		],
+		"require": []
+	}
 }
