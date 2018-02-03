@@ -1,8 +1,11 @@
 {
   "name": "pyat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal project generator",
   "main": "cli.js",
+  "bin": {
+    "pyat": "./cli.js"
+  },
   "scripts": {
     "test": "ava"
   },
