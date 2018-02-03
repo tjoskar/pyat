@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-$ npm install -g @tjoskar/pyat
+$ npm install -g tjoskar/pyat
 ```
 
 ## Usage
