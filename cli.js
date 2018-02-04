@@ -19,6 +19,10 @@ async function cli() {
         {
           name: 'Typescript module',
           value: 'ts-module'
+        },
+        {
+          name: 'Javascript module',
+          value: 'js-module'
         }
       ]
     }

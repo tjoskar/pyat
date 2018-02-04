@@ -1,4 +1,4 @@
-# Pyat
+# Pyat [![Build Status](https://travis-ci.org/tjoskar/pyat.svg?branch=master)](https://travis-ci.org/tjoskar/pyat)
 
 > Generates the project you deserve
 
@@ -26,9 +26,9 @@ $ pyat
 
 ### js-module
 
-```
-// TODO
-```
+- `jest` (and `wallaby`) for test and code coverage
+- `editorconfig` and `prettier` for code style
+- `travis` for CI
 
 ### ts-react-project
 

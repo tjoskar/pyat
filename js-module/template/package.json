@@ -1,0 +1,25 @@
+{
+  "name": "<%= name %>",
+  "description": "<%- description %>",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "<%- author %> <<%- email %>>",
+  "bugs": {
+    "url": "<%- githubRepo %>/issues",
+    "email": "<%- email %>"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "*"
+  },
+  "homepage": "<%- githubRepo %>",
+  "keywords": [ <%- `${keywords.trim().split(/[, ]+/).map(k => `"${k.trim()}"`).join(', ')}` %> ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "<%- githubRepo %>"
+  }
+}
